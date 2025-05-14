@@ -1,0 +1,20 @@
+baseURL = 'https://<your-github-username>.github.io/'
+languageCode = 'en-us'
+title = 'Mohammed Alom | Developer'
+theme = 'PaperMod'
+
+[params]
+  author = "Mohammed Alom"
+  ShowReadingTime = true
+  defaultTheme = "light"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
